@@ -63,20 +63,35 @@ section img{
     padding: 20px 0px 10px 0px;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 500px) {
     header {
         width: 100%;
     }
+
+    header h1 {
+        font-size: 70px;
+    }
     section {
         width: 90%;
+        font-size: 25px;
     }
-  }
+
+    .lead {
+        font-size: 35px;
+    }
+}
+
 
   @media only screen and (min-width: 1025px) {
     header {
         width: 100%;
+        font-size: 35px;
     }
     section {
         width: 60%;
+        font-size: 20px;
     }
-  }
+    .lead {
+        font-size: 30px;
+    }
+}
