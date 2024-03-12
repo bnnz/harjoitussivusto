@@ -79,7 +79,11 @@ section img{
     .lead {
         font-size: 40px;
     }
+    li a {
+        font-size: 30px;
+    }
 }
+
 
 
   @media only screen and (min-width: 1025px) {
@@ -93,5 +97,8 @@ section img{
     }
     .lead {
         font-size: 30px;
+    }
+    li a {
+        font-size: 20px;
     }
 }
