@@ -57,11 +57,18 @@ section {
 .lead {
     font-size: 25px;
 }
-
+/* tämä oli alkuperäinrn
 section img{
     width: 100%;
     padding: 20px 0px 10px 0px;
+} */
+
+section img{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0px 10px 0px;
 }
+
 
 @media only screen and (min-width: 500px) {
     header {
